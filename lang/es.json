@@ -1,0 +1,39 @@
+{
+  "SETTINGS.SimpleMacroShorthandN": "Sintaxis Macro acortada",
+  "SETTINGS.SimpleMacroShorthandL": "Habilita una sintaxis de macros acortada que permite referenciar atributos directamente, por ejemplo @str en vez de @attributes.str.value. Desactiva esta opcion si requieres mantener la habilidad de referenciar el modelo de atributos completo, por ejemplo @attributes.str.label.",
+  "SETTINGS.SimpleInitFormulaN": "Fórmula de Iniciativa",
+  "SETTINGS.SimpleInitFormulaL": "Ingresa una fórmula de iniciativa, como d20+@dex",
+
+  "SIMPLE.ItemCreate": "Crear ítem",
+  "SIMPLE.ItemEdit": "Editar ítem",
+  "SIMPLE.ItemDelete": "Borrar ítem",
+  "SIMPLE.ItemNew": "Nuevo ítem",
+
+  "SIMPLE.NotifyInitFormulaUpdated": "La fórmula de iniciativa se actualizó a",
+  "SIMPLE.NotifyInitFormulaInvalid": "La fórmula de iniciativa es inválida",
+  "SIMPLE.NotifyGroupDuplicate": "El grupo de atributos ya existe",
+  "SIMPLE.NotifyGroupAttrDuplicate": "Attribute group already exists as an attribute.",
+  "SIMPLE.NotifyGroupAlphanumeric": "Attribute group names may not contain spaces or periods.",
+  "SIMPLE.NotifyGroupReserved": "Attribute group \"{key}\" is reserved and cannot be used.",
+  "SIMPLE.NotifyAttrDuplicate": "Attribute key already exists as a group.",
+  "SIMPLE.NotifyAttrInvalid": "Attribute keys may not contain spaces or periods.",
+
+  "SIMPLE.ResourceMin": "Min",
+  "SIMPLE.ResourceValue": "Valor",
+  "SIMPLE.ResourceMax": "Max",
+
+  "SIMPLE.DefineTemplate": "Definir como plantilla",
+  "SIMPLE.UnsetTemplate": "Remover plantilla",
+  "SIMPLE.NoTemplate": "Sin plantilla",
+
+  "SIMPLE.AttributeKey": "Llave de atributo",
+  "SIMPLE.AttributeValue": "Valor",
+  "SIMPLE.AttributeLabel": "Rótulo",
+  "SIMPLE.AttributeDtype": "Tipo de datos",
+
+  "SIMPLE.DeleteGroup": "¿Eliminar grupo?",
+  "SIMPLE.DeleteGroupContent": "Do you wish to delete this group? This will delete the following group and all attributes included in it: ",
+
+  "SIMPLE.Create": "Crear",
+  "SIMPLE.New": "Nuevo"
+}
