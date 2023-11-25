@@ -1,6 +1,6 @@
 {
   "id": "unchartedwilds",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "title": "Uncharted Wilds",
   "url": "https://github.com/foundryvtt/worldbuilding/",
   "description": "A base implementation of Uncharted Wilds for Foundry VTT, based entirely on the Simple Worldbuilding System for Foundry designed by Atropos",
@@ -35,5 +35,5 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "manifest": "https://raw.githubusercontent.com/Eldhrimer/unchartedwilds/main/system.json",
-  "download": "https://github.com/Eldhrimer/unchartedwilds/archive/refs/tags/0.1.0.zip"
+  "download": "https://github.com/Eldhrimer/unchartedwilds/archive/refs/tags/0.1.2.zip"
 }
