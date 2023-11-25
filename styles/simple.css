@@ -27,7 +27,7 @@
 }
 .unchartedwilds .sheet-header .header-fields {
   flex: 1;
-  height: 100px;
+  height: 200px;
 }
 .unchartedwilds .sheet-header h1.charname {
   height: 50px;
@@ -53,7 +53,7 @@
 }
 .unchartedwilds .aspects {
   flex: 1;
-  height: 85px;
+  height: 65px;
 }
 .unchartedwilds .aspect {
   width: 16%;
