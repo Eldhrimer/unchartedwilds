@@ -7,49 +7,55 @@
             <h1 class="charname">
                 <input name="name" type="text" value="{{data.name}}" placeholder="Name" />
             </h1>
+            <div class="aspects flexrow">
+                <div class="aspect">
+                    <label class="attribute-label"> {{data.aspects.steel.label}} </label>
+                    <input type="text" name="data.aspects.steel.value" value="{{data.aspects.steel.value}}" data-dtype="Number"/>
+                    <input type="checkbox" name="data.aspects.steel.mastery" value="{{data.aspects.steel.mastery}}"/>
+                </div>
+                <div class="aspect">
+                    <label class="attribute-label"> {{data.aspects.blood.label}} </label>
+                    <input type="text" name="data.aspects.blood.value" value="{{data.aspects.blood.value}}" data-dtype="Number"/>
+                    <input type="checkbox" name="data.aspects.blood.mastery" value="{{data.aspects.blood.mastery}}"/>
+                </div>
+                <div class="aspect">
+                    <label class="attribute-label"> {{data.aspects.dawn.label}} </label>
+                    <input type="text" name="data.aspects.dawn.value" value="{{data.aspects.dawn.value}}" data-dtype="Number"/>
+                    <input type="checkbox" name="data.aspects.dawn.mastery" value="{{data.aspects.dawn.mastery}}"/>
+                </div>
+                <div class="aspect">
+                    <label class="attribute-label"> {{data.aspects.dusk.label}} </label>
+                    <input type="text" name="data.aspects.dusk.value" value="{{data.aspects.dusk.value}}" data-dtype="Number"/>
+                    <input type="checkbox" name="data.aspects.dusk.mastery" value="{{data.aspects.dusk.mastery}}"/>
+                </div>
+                <div class="aspect">
+                    <label class="attribute-label"> {{data.aspects.truth.label}} </label>
+                    <input type="text" name="data.aspects.truth.value" value="{{data.aspects.truth.value}}" data-dtype="Number"/>
+                    <input type="checkbox" name="data.aspects.truth.mastery" value="{{data.aspects.truth.mastery}}"/>
+                </div>
+                <div class="aspect">
+                    <label class="attribute-label"> {{data.aspects.veil.label}} </label>
+                    <input type="text" name="data.aspects.veil.value" value="{{data.aspects.veil.value}}" data-dtype="Number"/>
+                    <input type="checkbox" name="data.aspects.veil.mastery" value="{{data.aspects.veil.mastery}}">
+            </div>
+        </div>
             <div class="resource">
-                <input type="number" name="system.health.value" value="{{systemData.health.value}}"/>
-                <span> / </span>
-                <input type="number" name="system.health.max" value="{{systemData.health.max}}"/>
+                <label class="attribute-label"> {{system.health.label}} </label>
+                <div>
+                    <input type="number" name="system.health.value" value="{{systemData.health.value}}"/>
+                    <span> / </span>
+                    <input type="number" name="system.health.max" value="{{systemData.health.max}}"/>
+                </div>
             </div>
             <div class="resource">
+                <label class="attribute-label"> {{system.power.label}} </label>
+                <div>
                 <input type="number" name="system.power.value" value="{{systemData.power.value}}"/>
                 <span> / </span>
                 <input type="number" name="system.power.max" value="{{systemData.power.max}}"/>
             </div>
         </div>
-        <div class="aspects flexrow">
-            <div class="aspect">
-                <label class="attribute-label"> Steel: </label>
-                <input type="text" name="data.aspects.steel.value" value="{{data.aspects.steel.value}}" data-dtype="Number"/>
-                <input type="checkbox" name="data.aspects.steel.mastery" value="{{data.aspects.steel.mastery}}"/>
-            </div>
-            <div class="aspect">
-                <label class="attribute-label"> Blood: </label>
-                <input type="text" name="data.aspects.blood.value" value="{{data.aspects.blood.value}}" data-dtype="Number"/>
-                <input type="checkbox" name="data.aspects.blood.mastery" value="{{data.aspects.blood.mastery}}"/>
-            </div>
-            <div class="aspect">
-                <label class="attribute-label"> Dawn: </label>
-                <input type="text" name="data.aspects.dawn.value" value="{{data.aspects.dawn.value}}" data-dtype="Number"/>
-                <input type="checkbox" name="data.aspects.dawn.mastery" value="{{data.aspects.dawn.mastery}}"/>
-            </div>
-            <div class="aspect">
-                <label class="attribute-label"> Dusk: </label>
-                <input type="text" name="data.aspects.dusk.value" value="{{data.aspects.dusk.value}}" data-dtype="Number"/>
-                <input type="checkbox" name="data.aspects.dusk.mastery" value="{{data.aspects.dusk.mastery}}"/>
-            </div>
-            <div class="aspect">
-                <label class="attribute-label"> Truth: </label>
-                <input type="text" name="data.aspects.truth.value" value="{{data.aspects.truth.value}}" data-dtype="Number"/>
-                <input type="checkbox" name="data.aspects.truth.mastery" value="{{data.aspects.truth.mastery}}"/>
-            </div>
-            <div class="aspect">
-                <label class="attribute-label"> Veil: </label>
-                <input type="text" name="data.aspects.veil.value" value="{{data.aspects.veil.value}}" data-dtype="Number"/>
-                <input type="checkbox" name="data.aspects.veil.mastery" value="{{data.aspects.veil.mastery}}">
-            </div>
-        </div>
+        
     </header>
 
     {{!-- Sheet Tab Navigation --}}

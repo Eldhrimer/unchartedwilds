@@ -12,8 +12,8 @@ export class SimpleActorSheet extends ActorSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["worldbuilding", "sheet", "actor"],
       template: "systems/unchartedwilds/templates/actor-sheet.html",
-      width: 600,
-      height: 600,
+      width: 800,
+      height: 800,
       tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description"}],
       scrollY: [".biography", ".items", ".attributes"],
       dragDrop: [{dragSelector: ".item-list .item", dropSelector: null}]

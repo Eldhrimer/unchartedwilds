@@ -5,11 +5,13 @@
     "character": {
       "biography": "",
       "health": {
+        "label": "Health",
         "value": 10,
         "min": 0,
         "max": 10
       },
       "power": {
+        "label": "Power",
         "value": 5,
         "min": 0,
         "max": 5

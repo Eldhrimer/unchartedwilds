@@ -12,7 +12,7 @@
   height: 100%;
 }
 .worldbuilding .sheet-header {
-  flex: 0 0 100px;
+  flex: 0 0 200px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -22,7 +22,7 @@
 }
 .worldbuilding .sheet-header .profile-img {
   flex: 0 0 100px;
-  height: 100px;
+  height: 200px;
   margin-right: 10px;
 }
 .worldbuilding .sheet-header .header-fields {
@@ -43,7 +43,7 @@
 .worldbuilding .resource {
   width: 50%;
   height: 40px;
-  margin-top: 10px;
+  margin-top: 5px;
   float: left;
   text-align: center;
 }
@@ -53,17 +53,20 @@
 }
 .worldbuilding .aspects {
   flex: 1;
+  height: 85px;
 }
 .worldbuilding .aspect {
-  width: 16%%;
-  height: 40px;
-  margin-top: 10px;
+  width: 16%;
+  height: 32px;
+  margin-top: 5px;
   float: left;
   text-align: center;
 }
 .worldbuilding .aspect input { 
-  width: 100px;
   height: 28px;
+}
+.worldbuilding .aspect input[type='checkbox'] { 
+  height: 16px;
 }
 .worldbuilding .tabs {
   flex: 0 0 40px;
